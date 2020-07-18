@@ -1,0 +1,11 @@
+body{margin:0 auto;
+     overflow:hidden;} /*让界面没滚动条了*/
+
+div{text-align:center} /*这里这条配合body的外边框让整个内容居中*/	
+
+img{
+    width:35vw;
+    height:100vh;
+    background-size:contain|cover;
+    max-width: 100%;height: auto;width: auto\9; /*这条指令让手机端与pc端页面显示一致*/ 
+}
